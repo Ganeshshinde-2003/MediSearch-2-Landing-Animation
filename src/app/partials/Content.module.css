@@ -128,9 +128,6 @@
     margin: 6px 0px;
     margin-left: 20px;
   }
-  .scrollerWrapper {
-    cursor: grab;
-  }
   .scrollerWrapper:hover .scrollerView {
     animation-play-state: paused;
   }
