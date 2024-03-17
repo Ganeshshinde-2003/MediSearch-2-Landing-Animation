@@ -138,6 +138,11 @@
   .scrollerWrapper::-webkit-scrollbar {
     display: none;
   }
+  .scrollerWrapper::before,
+  .scrollerWrapper::after {
+    width: 0;
+    height: 0;
+  }
 }
 
 .floatingLink {
